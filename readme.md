@@ -1,5 +1,8 @@
 # prometheus-playbook
 
+amazon linux をansibleでセットアップするplaybook. protheusをテストする環境のec2、２台をセットアップします。
+今はmacから実行してますが、cloudformationで実行する予定
+
 ```
 # prod.ymlに書いてあるサーバ全台デプロイ
 ansible-playbook -i host_vars/prod.yml site.yml
