@@ -1,8 +1,2 @@
 ---
-# - include_tasks: user_group.yml
-- name: ls # ここは日本語使える
-  shell: ls
-  register: result_ls
-- name: result_ls
-  debug:
-    msg: "{{ result_ls.stdout }}"
+- include_tasks: prometheus.yml
