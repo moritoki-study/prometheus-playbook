@@ -1,0 +1,8 @@
+---
+- import_playbook: prometheus.yml
+# - import_playbook: exporter.yml
+# - import_playbook: black_exporter.yml
+# - import_playbook: grok_exporter.yml
+# - import_playbook: alertmanager.yml
+# - import_playbook: garafana.yml
+# - import_playbook: httpserver.yml

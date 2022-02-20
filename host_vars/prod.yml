@@ -1,0 +1,5 @@
+[prometheus]
+ec2-35-77-197-166.ap-northeast-1.compute.amazonaws.com ansible_host=35.77.197.166
+
+[prod:children]
+prometheus

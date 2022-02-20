@@ -1,0 +1,8 @@
+---
+- name: deploy prometheus server
+  hosts: prometheus
+  roles:
+    # - role: common
+    #   tags: common
+    - role: prometheus
+      tags: prometheus
